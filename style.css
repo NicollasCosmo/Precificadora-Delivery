@@ -1,4 +1,39 @@
 .titulo-principal {
     text-align: center;
     font-size: 80px;
+    background-color: SteelBlue;
+    margin: 0 0 25px 0;
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+form {
+    margin: 40px 90px;
+    position: absolute;
+    top: 180px;
+    right: 110px;
+    
+    
+}
+
+
+
+.inputs {
+    display: block;
+    margin: 0 0 15px 0;
+    font-size: 22px;
+}
+
+label {
+    font-size: 22px
+}
+

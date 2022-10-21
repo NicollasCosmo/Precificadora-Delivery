@@ -6,7 +6,7 @@ const margem = document.getElementById('margem');
 const botao = document.querySelector('button');
 const valorFinal = document.getElementById('valorFinal');
 
-divResultado.style.visibility = "hidden"
+divResultado.style.visibility = "hidden";
 
 botao.addEventListener('click', () => {
     if(custo.value === ""){
@@ -18,17 +18,17 @@ botao.addEventListener('click', () => {
 
 
 function vendaCerta() {
-    const taxa = Number(document.getElementById('taxa').value);
+    const taxa = Number(document.getElementById('taxa').value);         //extrai o valor da taxa
 
-    divResultado.style.visibility = "visible";
-    let custoProduto = Number(custo.value);
-    let valorMargem = Number(margem.value);
+    divResultado.style.visibility = "visible";             //  exibe o resultado para o usuário
+    let custoProduto = Number(custo.value);         // extrai o valor do custo passando de string para número
+    let valorMargem = Number(margem.value);        // extrai o valor da margem passando de string para número
 
-    let precoVenda = custoProduto + (custoProduto * valorMargem);
+    let precoVenda = custoProduto + (custoProduto * valorMargem); // cálculo para obter preço de venda
 
-    let precoDelivery = precoVenda + (precoVenda * taxa);
+    let precoDelivery = precoVenda + (precoVenda * taxa);      //cálculo para preço de venda + tx do delivery
 
-    let resultado = precoDelivery.toFixed(2);
+    let resultado = precoDelivery.toFixed(2);       // valor com apenas duas casas decimais 
     valorFinal.innerHTML = resultado;
 
 }
