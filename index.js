@@ -28,7 +28,7 @@ function vendaCerta() {
 
     let precoDelivery = precoVenda + (precoVenda * taxa);      //cálculo para preço de venda + tx do delivery
 
-    let resultado = precoDelivery.toFixed(2);       // valor com apenas duas casas decimais 
+    let resultado = precoDelivery.toFixed(2);   // valor com apenas duas casas decimais  
     valorFinal.innerHTML = resultado;
 
 }

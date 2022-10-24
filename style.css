@@ -1,11 +1,14 @@
 .titulo-principal {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     background-color: SteelBlue;
     margin: 0 0 25px 0;
     color: white;
     font-family: Copperplate, Papyrus, fantasy;
+ 
 }
+
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -31,9 +34,48 @@ form {
     display: block;
     margin: 0 0 15px 0;
     font-size: 22px;
+    border: none;
+    border-radius: 5px;
+
 }
 
 label {
     font-size: 22px
+}
+
+
+
+ p {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+   
+}
+
+h3 {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+.calcular {
+    width: 20%;
+    padding: 15px 0;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+
+.calcular:hover {
+    background: mediumblue;
+    transform: scale(1.2);
+    color: white;
 }
 
