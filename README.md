@@ -1,5 +1,5 @@
-<h1 align="center">Calculadora de gorjetas</h1>
-<p align="center">Projeto de uma calculadora, que faz a soma da conta do jantar com a taxa de serviço e divide pelo número de pessoas. Produzido com HTML, CSS e JavaScript.</p>
+<h1 align="center">Precificadora para Delivery</h1>
+<p align="center">Projeto de um aplicativo que extrai o valor final que deve ser repassado ao cliente de delivery. Produzido com HTML, CSS e JavaScript.</p>
 
 ---
 
@@ -16,19 +16,18 @@
 <a href="#autor">Autor</a></p>
 
 
-
 ## Sobre
-Esse projeto foi criado no intuito de ajudar as pessoas na hora de somar e dividir a conta de um jantar ou algo do tipo. Consiste em somar o valor da conta com a taxa de serviço, e ainda divide pelo número de pessoas que irá arcar com a despesa.
+Esse projeto foi criado no intuito de ajudar os empreendedores que trabalham com comércio de produtos e utilizam os serviços de delivery como Ifood, Rappi e outros para divulgar e entregar seus produtos. Consiste em simplificar um processo que gera muita dúvida para os empreendedores, definir o preço final de venda já considerando as taxas que são cobradas por essas operadoras de delivery e a margem de lucro desejada.
 
 
 ## Funcionalidades
 As principais funcionalidades do projeto são:
 
-✅ Poder selecionar qual a taxa de serviço (5%, 10%, 15%, 20%);
+✅ Definir o valor de custo do produto;
 
-✅ Soma da conta com a taxa de serviço escolhida;
+✅ Escolher qual o percentual da taxa de serviço cobrada pela operadora de delivery;
 
-✅ Dividir o total da conta com o número de pessoas;
+✅ Definir qual a margem delucro que deseja se obter com aquele produto;
 
 ✅ Responsivo em diversos tamanhos de tela.
 
@@ -41,7 +40,7 @@ As principais funcionalidades do projeto são:
 
 ## Serviços usados
 * GitHub
-* Netlify (hospedagem do site)
+* Vercel (hospedagem do site)
 
 
 ## Imagens
@@ -60,11 +59,11 @@ As principais funcionalidades do projeto são:
 ---
 
 ## Como usar
-Para usar, abra a página com o link do deploy para ser direcionado para a calculadora. Preencha os campos com o valor do jantar, o número de pessoas para dividir a conta e selecione a taxa de serviço. Após concluir os passos anteriores, clique no botão "Calcular" e pronto! o valor por pessoa já será exibido!
+Para usar, abra a página com o link do deploy para ser direcionado até a precificadora. Preencha os campos com o custo do produto, selecione a taxa de serviço e a margem de lucro que deseja trabalhar. Após concluir os passos anteriores, clique no botão "Calcular" e pronto! será exibido o valor final para ser repassado ao seu cliente! caso queira consultar um novo produto, basta clicar no botão "Nova consulta" e repetir os passos anteriores.
 
 
 ## Pré requisitos
-Para abrir a calculadora, basta o uso de um navegador de sua preferência.
+Para abrir a precificadora, basta o uso de um navegador de sua preferência.
 
 
 ## Links
@@ -73,8 +72,8 @@ Para abrir a calculadora, basta o uso de um navegador de sua preferência.
 
 
 ## Autor
-✨ Feito por Caio Augusto!!!
+✨ Feito por Nícollas Cosmo!!!
 
-* caioaugustosbs@gmail.com
-* <a href="https://www.linkedin.com/in/caio-augusto-cap/" target=”_blank”>LinkedIn</a>
-* <a href="https://github.com/CaioAugustoHD" target=”_blank”>GitHub</a>
+* nicollascosmo@hotmail.com
+* <a href="https://www.linkedin.com/in/nicollascosmo" target=”_blank”>LinkedIn</a>
+* <a href="https://github.com/NicollasCosmo" target=”_blank”>GitHub</a>
