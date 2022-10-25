@@ -67,7 +67,7 @@ Para abrir a precificadora, basta o uso de um navegador de sua preferência.
 
 
 ## Links
-* Deploy: 
+* Deploy: https://precificadora-delivery.vercel.app/
 * Repositório: https://github.com/NicollasCosmo/Precificadora-Delivery
 
 
