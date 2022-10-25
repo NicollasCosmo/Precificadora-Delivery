@@ -61,6 +61,7 @@ h3 {
 }
 
 .calcular {
+    display: inline-block;
     width: 20%;
     padding: 15px 0;
     color: steelblue;
@@ -77,5 +78,95 @@ h3 {
     background: mediumblue;
     transform: scale(1.2);
     color: white;
+}
+
+.atualiza {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    width: 30%;
+    padding: 15px 0px;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.atualiza:hover {
+    background: mediumblue;
+    transform: scale(1.2);
+    color: white;
+}
+
+
+/* <<< responsividade para smartphones >>>*/
+
+
+@media screen and (max-width: 480px) {
+
+    .titulo-principal, body, form, .inputs, label, p, .calcular, h3 {
+        width: auto;
+    }
+
+    form {
+        position: static;
+        margin: 70px 10px 40px 20px;
+        padding: 20px;
+    }
+
+    label {
+
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        
+        
+
+        
+    }
+
+    .inputs {
+
+        padding: 15px 0;
+        width: 80%;
+        margin: 15px 0;
+    
+    }
+
+    h3 {
+        margin: 20px 0 0 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    p {
+
+        text-align: center;
+        box-shadow: inset 0 0 10px 10px blue;
+    }
+
+    .calcular {
+        width: 30%;
+        margin: 30px 10px 0 0px;
+    }
+
+    .atualiza {
+        display: inline-block;
+        margin: 0 15px 0 15px;
+        width: 50%;
+        padding: 15px 0px;
+        color: steelblue;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+    
 }
 

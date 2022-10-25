@@ -5,6 +5,7 @@ const taxa = document.getElementById('taxa');
 const margem = document.getElementById('margem');
 const botao = document.querySelector('button');
 const valorFinal = document.getElementById('valorFinal');
+const atualiza = document.getElementById('atu');
 
 divResultado.style.visibility = "hidden";
 
@@ -14,6 +15,11 @@ botao.addEventListener('click', () => {
     }else {
         vendaCerta();
     }
+})
+
+
+atualiza.addEventListener('click', () => {
+    recarregarPagina();
 })
 
 
@@ -31,4 +37,9 @@ function vendaCerta() {
     let resultado = precoDelivery.toFixed(2);   // valor com apenas duas casas decimais  
     valorFinal.innerHTML = resultado;
 
+}
+
+function recarregarPagina() {
+   
+    window.location.reload()
 }
