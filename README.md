@@ -67,8 +67,8 @@ Para abrir a precificadora, basta o uso de um navegador de sua preferência.
 
 
 ## Links
-* Deploy: https://calculagorjetas.netlify.app/
-* Repositório: https://github.com/CaioAugustoHD/Calculadora-gorjetas
+* Deploy: 
+* Repositório: https://github.com/NicollasCosmo/Precificadora-Delivery
 
 
 ## Autor
